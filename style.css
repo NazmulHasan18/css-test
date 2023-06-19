@@ -1,0 +1,32 @@
+.yellow {
+   background-color: rgb(255, 208, 0);
+   height: 70vh;
+   text-align: center;
+}
+.h2 {
+   padding-top: 15vh;
+   color: white;
+   font-size: 50px;
+}
+.circle {
+   background-color: #00000054;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgba(0, 0, 0, 0.651);
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
+}
+.rotate {
+   background-color: rgb(255, 208, 0);
+   width: 200px;
+   height: 200px;
+   margin: 40px auto 0;
+   transform: rotate(-22deg) skewX(45deg) scaleY(cos(45deg));
+}
+.red {
+   background-color: rgb(255, 39, 39);
+   height: 30vh;
+}
